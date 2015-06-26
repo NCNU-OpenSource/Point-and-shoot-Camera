@@ -393,3 +393,5 @@ http://mcuapps.com/blog/build-lcd-touchscreen-drivers-for-raspberry-pi
 (2) http://www.geekfan.net/5618/
 6. TFT面板與相機同步顯示：
 https://learn.adafruit.com/diy-wifi-raspberry-pi-touch-cam/pi-setup
+7. GPIO腳位圖片參考/修改：
+http://www.codedata.com.tw/java/java-embedded-6-raspberry-pi-gpio/
