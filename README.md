@@ -327,15 +327,16 @@ cd adafruit-pi-cam-master<br/>
 sudo python cam.py<br/>
 
 # 捌、 操作教學
-正面圖
-![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/DSC_7069.JPG)
-背面圖
-![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/DSC_7065.JPG)
-上面圖
-![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/DSC_7067.JPG)
-
-
-
+正面圖<br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/DSC_7069.JPG)<br/>
+前面有由三顆LED燈所構成的自拍提示燈，當按下快門鍵時，會以一秒閃爍一下，閃爍四次，而鏡頭也會在閃爍結束後進行拍照的動作。<br/><br/>
+背面圖<br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/DSC_7065.JPG)<br/>
+後有觸控螢幕，可以選擇照片大小、照片主題、照片儲存位置、相機模組感光度(ISO)。<br/><br/>
+上面圖<br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/DSC_7067.JPG)<br/>
+當按下右上方的紅色按鈕時可以直接進行拍照，而按下右下方的紅色按鈕時，就會開始讀秒，讀秒結束後就會進行拍照了。<br/>
+按壓中間的ON/OFF的按鈕，則是可以將Raspberry Pi關閉。左邊的按鈕一個為上傳至Google Drive，另一個為上傳至Dropbox。
 # 玖、 工作分配表
 <table>
   <tr>
