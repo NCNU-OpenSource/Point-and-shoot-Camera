@@ -229,7 +229,7 @@ raspistill -o image.jpg -t 1000<br/><br/><br/>
 按鈕<br/>
 (1) 能夠控制快門<br/>
 raspistill -o image.jpg -t 2000<br/><br/>
-(2) 能夠控制4秒自拍快門<br/>
+(2) 能夠控制4秒自拍快門
 
 	x=0<br/>
 	while x<4:<br/>
@@ -238,7 +238,7 @@ raspistill -o image.jpg -t 2000<br/><br/>
   	GPIO.output(7,False)  讓LED燈熄滅<br/>
   	time.sleep(1)  間隔一秒鐘<br/>
   	x+=1<br/>
-	raspistill -o image.jpg -t 2000<br/><br/>
+	raspistill -o image.jpg -t 2000<br/>
 
 (3) 拍好的照片上傳至Google Drive<br/>
 https://github.com/prasmussen/gdrive  找到drive-linux-rpi<br/> v1.8.0，右鍵，複製連結，利用wget下載檔案，完成後把檔名改成drive<br/>
@@ -302,7 +302,7 @@ vim /boot/cmdline.txt
 
 	fbtft_device.rotate=90
 	
-<br/><br/>(3) 校準觸控面板游標位置
+<br/>(3) 校準觸控面板游標位置
 vim /etc/modules<br/>
 
 	swap_xy=1<br/>
