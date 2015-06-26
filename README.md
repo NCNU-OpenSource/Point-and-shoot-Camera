@@ -302,7 +302,7 @@ vim /boot/cmdline.txt
 
 	fbtft_device.rotate=90
 	
-<br/>(3) 校準觸控面板游標位置
+(3) 校準觸控面板游標位置
 vim /etc/modules<br/>
 
 	swap_xy=1<br/>
@@ -318,7 +318,7 @@ export TSLIB_TSDEVICE=/dev/input/event0<br/>
 export TSLIB_FBDEVICE=/dev/fb1<br/>
 ts_calibrate<br/>
 ts_test<br/><br/>
-<br/><br/>(4) 安裝相機與觸控面板同步模組
+(4) 安裝相機與觸控面板同步模組
 sudo apt-get install python-pip<br/>
 sudo pip install picamera==0.8<br/>
 wget https://github.com/adafruit/adafruit-pi-cam/archive/master.zip<br/>
