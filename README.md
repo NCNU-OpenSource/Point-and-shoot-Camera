@@ -191,14 +191,46 @@ Linux系統管理實務　期末報告　第二組  <br/>
 </table>
 
 # 柒、 組裝過程及製作教學
-
-
-
+####一、 組裝過程
+內部圖 <br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/DSC_7061.JPG) <br/><br/>
+組裝完成圖 <br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/DSC_7064.JPG) <br/><br/>
+####二、 製作教學
+GPIO-拍照按鈕與關機按鈕 <br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/Btn.png) <br/><br/>
+拍照按鈕與關機按鈕(正面)<br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/Snap1.jpg) <br/>
+利用銲接電路進行拍照按鈕與關機按鈕的製作，此圖為電路正面情況，三個按鈕之間個別串入三電阻(電阻值：220+5%Ω、1K+5%Ω)，防止電流量過大燒毀元件，而在電阻之後是Raspberry Pi GPIO的訊號接腳。<br/><br/>
+拍照按鈕與關機按鈕(背面)<br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/Snap2.jpg) <br/>
+圖中三個藍色箭頭即為訊號接腳銲接處。紅框則是電路實際走線。<br/><br/>
+GPIO-LED燈 <br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/LED.png) <br/><br/>
+LED燈(正面)<br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/Snap5.jpg) <br/>
+圖為三個發光二極體的布線方法，與正電之間有先串入一個電阻(電阻值：220+5%Ω)，防止電流量過大燒毀元件。<br/><br/>
+LED燈(背面)<br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/Snap6.jpg) <br/>
+這個部分不需要正電的加入，因為直接以GPIO.7的訊號電路為輸出腳位，並用程式來控制正電的輸出。<br/><br/>
+GPIO-上傳至Google Drive、Dropbox按鈕 <br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/UpDate.png) <br/><br/>
+上傳至Google Drive、Dropbox按鈕(正面)<br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/Snap3.jpg) <br/>
+圖為上傳至Google Drive、Dropbox的按鈕製作，一樣各有一個電阻(皆為1K+5%Ω)來防止電流量過大燒毀元件，而在電阻之後是Raspberry Pi GPIO的訊號接腳。<br/><br/>
+上傳至Google Drive、Dropbox按鈕(背面)<br/>
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/Snap4.jpg) <br/>
+上下兩方是正負電，兩個藍色箭頭是按鈕的訊號線，紅框則是電路實際走線。<br/><br/>
 
 
 
 # 捌、 操作教學
-
+正面圖
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/DSC_7069.JPG)
+背面圖
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/DSC_7065.JPG)
+上面圖
+![step](https://github.com/s103213516/Point-and-shoot-Camera/blob/master/DSC_7067.JPG)
 
 
 
